@@ -1,4 +1,4 @@
-const input = document.querySelector("textarea");
+let input = document.querySelector("textarea");
 const btns = document.querySelectorAll("button");
 
 for (let i = 0; i < btns.length; i++) {
@@ -22,5 +22,6 @@ for (let i = 0; i < btns.length; i++) {
       }
       input.value += btns[i].innerHTML;
     }
+    input.scrollTop = input.scrollHeight;
   });
 }
