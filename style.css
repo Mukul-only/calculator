@@ -641,7 +641,6 @@ a {
 .btn {
   height: 3rem;
   width: 3rem;
-  cursor: pointer;
   border-radius: 9999px;
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -650,6 +649,8 @@ a {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   --tw-shadow-color: #003047;
   --tw-shadow: var(--tw-shadow-colored);
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 .btn:active {
