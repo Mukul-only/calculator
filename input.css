@@ -15,7 +15,7 @@ a {
 }
 
 .btn {
-  @apply rounded-full w-16 h-16 text-xl shadow-sm shadow-veryDarkBlue  active:bg-[#002e4e];
+  @apply rounded-full w-12 h-12 md:w-16 md:h-16 text-xl shadow-sm shadow-veryDarkBlue  active:bg-[#002e4e] cursor-pointer outline-none border-none;
 }
 
 .sp {
