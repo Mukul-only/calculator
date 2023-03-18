@@ -626,13 +626,13 @@ video {
   outline-offset: 2px;
 }
 
-/* input,
+input,
 textarea,
 button,
 select,
 a {
   -webkit-tap-highlight-color: transparent;
-} */
+}
 
 .outer {
   background-image: linear-gradient(45deg, #00111a, #000e14);
@@ -649,8 +649,6 @@ a {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   --tw-shadow-color: #003047;
   --tw-shadow: var(--tw-shadow-colored);
-  outline: 2px solid transparent;
-  outline-offset: 2px;
 }
 
 .btn:active {
@@ -668,6 +666,10 @@ a {
 .sp {
   --tw-text-opacity: 1;
   color: rgb(112 224 0 / var(--tw-text-opacity));
+}
+
+input {
+  direction: rtl;
 }
 
 @media (min-width: 768px) {
