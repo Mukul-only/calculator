@@ -2,20 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-/* input,
+input,
 textarea,
 button,
 select,
 a {
   -webkit-tap-highlight-color: transparent;
-} */
+}
 
 .outer {
   background-image: linear-gradient(45deg, #00111a, #000e14);
 }
 
 .btn {
-  @apply rounded-full w-12 h-12 md:w-16 md:h-16 text-xl shadow-sm shadow-veryDarkBlue  active:bg-[#002e4e] outline-none;
+  @apply rounded-full w-12 h-12 md:w-16 md:h-16 text-xl shadow-sm shadow-veryDarkBlue  active:bg-[#002e4e];
 }
 
 .sp {
