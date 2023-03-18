@@ -21,7 +21,3 @@ a {
 .sp {
   @apply text-[#70e000];
 }
-
-input {
-  direction: rtl;
-}

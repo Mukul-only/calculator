@@ -1,4 +1,4 @@
-const input = document.querySelector("input");
+const input = document.querySelector("textarea");
 const btns = document.querySelectorAll("button");
 
 for (let i = 0; i < btns.length; i++) {

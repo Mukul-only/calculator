@@ -543,6 +543,10 @@ video {
   max-width: 32rem;
 }
 
+.resize-none {
+  resize: none;
+}
+
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
@@ -666,10 +670,6 @@ a {
 .sp {
   --tw-text-opacity: 1;
   color: rgb(112 224 0 / var(--tw-text-opacity));
-}
-
-input {
-  direction: rtl;
 }
 
 @media (min-width: 768px) {
